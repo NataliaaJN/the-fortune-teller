@@ -1,0 +1,52 @@
+@import "core/variables";
+@import "core/reset";
+
+@import "layout/header";
+@import "layout/mainSection";
+
+.body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  background: url(../images/background.jpg) no-repeat top center;
+  background-size: cover;
+  color: $color-font;
+  font-size: 16px;
+  font-family: "Roboto";
+
+  @media (min-width: $tablet) {
+    font-size: 18px;
+  }
+  @media (min-width: $desktop) {
+    font-size: 24px;
+  }
+
+  .wrapper {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    margin-top: 245px;
+    background-color: rgba(0, 0, 0, 0.822);
+    border: 3px solid rgb(223, 124, 85);
+    // padding: 50px;
+    height: 50vh;
+    @media (min-width: $tablet) {
+      margin-top: 355px;
+      width: 70vw;
+      height: 40vh;
+    }
+    @media (min-width: $desktop) {
+      margin-top: 270px;
+      height: 60vh;
+    }
+    @media (min-width: 1200px) {
+      margin-top: 380px;
+      font-size: 2rem;
+    }
+    @media (min-width: 1400px) {
+      margin-top: 500px;
+    }
+  }
+}
