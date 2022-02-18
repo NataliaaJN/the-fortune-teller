@@ -33,7 +33,7 @@ function tryANumber(){
     }else if(userNumber<randomNumber){
         clue.innerHTML= 'Too low';
     }else if(userNumber>randomNumber){
-        clue.innerHTML= 'Demasiado high';
+        clue.innerHTML= 'Too high';
     }
 }
 
