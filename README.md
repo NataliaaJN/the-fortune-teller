@@ -10,7 +10,7 @@ npm start
 ## Estructura de carpetas
 
 La estructura de carpetas tiene esta pinta:
-
+```
 src
  ├─ html
  |  └─ partials
@@ -24,3 +24,4 @@ src
  |  ├─ core
  |  ├─ layout
  |  └─ pages
+```
