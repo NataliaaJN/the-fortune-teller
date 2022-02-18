@@ -55,8 +55,11 @@ function playAgain(){
 //EVENT
 function handleClickTry(event){
     event.preventDefault();
+    if(inputValue.value !== ''){
     tryANumber();
     attemptsCounter();
+    inputValue.value= '';
+    }
 }
 
 
